@@ -1,4 +1,4 @@
-```import math
+import math
 from Cryptodome.Util.number import *
 from sage.all import *
 
@@ -36,4 +36,4 @@ for i in range(len(k)):
                print(long_to_bytes(pow(c,d[i], N)))
                break
         except:
-            continue```
+            continue
